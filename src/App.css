@@ -1,31 +1,44 @@
+:root {
+  --primary-color: #222;
+  --primary-text-color: white;
+}
+
 .App {
   text-align: center;
 }
 
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+  height: 50px;
   position: relative;
   float: left;
-  -webkit-clip-path: circle(50px at center);
-  clip-path: circle(50px at center);
+  -webkit-clip-path: circle(30px at center);
+  clip-path: circle(30px at center);
 }
 
 .App-header {
-  background-color: #222;
-  height: 100px;
-  padding: 20px;
-  color: white;
+  background-color: var(--primary-color);
+  color: var(--primary-text-color);
+  overflow: hidden;
+  display: inline-block;
+  width: 100%;
+}
+
+.App-footer {
+  background-color: var(--primary-color);
+  color: var(--primary-text-color);
+  height: 20px;
+  width: 100%;
+  padding: 0;
+  position: absolute;
+  bottom: 0;
 }
 
 .App-title {
+  padding: 0 10px;
   font-size: 1.5em;
   position: relative;
   float: left;
-}
-
-.App-intro {
-  font-size: large;
 }
 
 @keyframes App-logo-spin {

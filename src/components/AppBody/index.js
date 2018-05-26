@@ -5,13 +5,13 @@ import { Grid, Row, Col } from 'react-bootstrap';
 class AppBody extends Component {
   render() {
     return (
-    <Grid>
-      <Row className="body">
-        <Col xs={12}>
-          content goes here
-        </Col>
-      </Row>
-    </Grid>
+      <Grid className="body show-grid">
+        <Row>
+          <Col xs={12}>
+            content goes here
+          </Col>
+        </Row>
+      </Grid>
     );
   }
 }

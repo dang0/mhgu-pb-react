@@ -1,0 +1,8 @@
+.body {
+  margin: 4px;
+}
+
+.show-grid {
+  outline: 2px dashed black;
+  border-radius: 10%;
+}
